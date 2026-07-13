@@ -1,0 +1,212 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:linear-gradient(180deg,#140520,#1b0931,#250f42);
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:20px;
+}
+
+.container{
+
+    width:100%;
+
+    max-width:430px;
+
+    text-align:center;
+
+    animation:fade .8s ease;
+
+}
+
+.logo{
+
+    width:75%;
+
+    max-width:260px;
+
+    height:auto;
+
+    margin:auto;
+
+    display:block;
+}
+
+h1{
+
+    color:#FFF;
+
+    font-family:'Orbitron',sans-serif;
+
+    font-size:2rem;
+
+    margin-top:10px;
+}
+
+p{
+
+    color:#bfb7d8;
+
+    margin:15px 0 25px;
+
+    font-size:.95rem;
+}
+
+.btn{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:12px;
+
+    width:100%;
+
+    padding:18px;
+
+    margin-bottom:18px;
+
+    border-radius:18px;
+
+    text-decoration:none;
+
+    color:#FFF;
+
+    font-size:1.1rem;
+
+    font-weight:600;
+
+    transition:.3s;
+
+    backdrop-filter:blur(10px);
+
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+}
+
+.btn i{
+
+    font-size:24px;
+}
+
+.instagram{
+
+    background:linear-gradient(135deg,#7A3EF3,#3CC6FF);
+}
+
+.tiktok{
+
+    background:#111;
+}
+
+.whatsapp{
+
+    background:#25D366;
+}
+
+.btn:hover{
+
+    transform:translateY(-4px) scale(1.02);
+
+    box-shadow:0 0 30px rgba(122,62,243,.5);
+}
+
+footer{
+
+    margin-top:35px;
+
+    color:#8f87ab;
+
+    font-size:.85rem;
+}
+
+@keyframes fade{
+
+    from{
+        opacity:0;
+        transform:translateY(-25px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+
+/* Tablet */
+
+@media (min-width:768px){
+
+    .container{
+
+        max-width:500px;
+    }
+
+    .logo{
+
+        max-width:300px;
+    }
+
+    h1{
+
+        font-size:2.5rem;
+    }
+
+    p{
+
+        font-size:1rem;
+    }
+
+    .btn{
+
+        font-size:1.2rem;
+
+        padding:20px;
+    }
+
+}
+
+/* Escritorio */
+
+@media (min-width:1200px){
+
+    body{
+p
+        background:radial-gradient(circle at top,#31155d,#140520 70%);
+    }
+
+    .container{
+
+        max-width:550px;
+    }
+
+    .logo{
+
+        max-width:330px;
+    }
+
+    .btn{
+
+        font-size:1.25rem;
+    }
+
+}
+.facebook{
+    background:linear-gradient(135deg,#1877F2,#0D5BD7);
+}
